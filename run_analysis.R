@@ -52,4 +52,4 @@ for(subject in subjects) {
     }
 }
 
-write.table(averages, "tidy.txt")
+write.table(averages, "tidy.txt", row.name=FALSE)
